@@ -7,18 +7,6 @@ export const rules = {
 		"error",
 		"camelCase",
 	],
-	"html/indent": [
-		"error",
-		"tab",
-		{
-			"Attribute": 1,
-			tagChildrenIndent: {
-				body: 1,
-				head: 1,
-				html: 0,
-			},
-		},
-	],
 	"html/lowercase": "error",
 	"html/max-element-depth": "error",
 	"html/no-abstract-roles": "error",

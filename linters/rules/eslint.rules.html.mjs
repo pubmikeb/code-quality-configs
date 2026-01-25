@@ -1,6 +1,5 @@
 /* eslint-disable no-magic-numbers */
 export const rules = {
-	"html/attrs-newline": "error",
 	"html/class-spacing": "error",
 	"html/css-no-empty-blocks": "error",
 	"html/element-newline": "error",
@@ -12,6 +11,7 @@ export const rules = {
 		"error",
 		"tab",
 		{
+			"Attribute": 1,
 			tagChildrenIndent: {
 				body: 1,
 				head: 1,

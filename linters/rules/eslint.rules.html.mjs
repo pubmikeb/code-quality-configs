@@ -1,4 +1,3 @@
-/* eslint-disable no-magic-numbers */
 export const rules = {
 	"html/class-spacing": "error",
 	"html/css-no-empty-blocks": "error",

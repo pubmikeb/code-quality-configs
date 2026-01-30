@@ -15,7 +15,7 @@ This project provides pre-configured ESLint rules for multiple file types:
 
 ## Requirements
 
-- Node.js >= 25.4.0
+- Node.js >= 25.5.0
 - npm >= 11.8.0
 
 ## Installation

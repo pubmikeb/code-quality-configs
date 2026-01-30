@@ -95,15 +95,6 @@ To use these configurations in another project:
 1. Copy the **linters** folder to the root directory of the target project.
 2. Add and install the required dependencies.
 
-## Global Ignores
-
-The following patterns are ignored by default:
-
-- `build/**`
-- `dist/**`
-- `package-*.json`
-- `*.min.*`
-
 ## License
 
 MIT

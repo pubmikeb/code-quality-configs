@@ -105,7 +105,6 @@ code-quality-configs/
 | [@html-eslint/eslint-plugin](https://github.com/yeonjuan/html-eslint)       | HTML linting                  |
 | [@html-eslint/parser](https://github.com/yeonjuan/html-eslint)              | HTML parser                   |
 | [eslint](https://github.com/eslint/eslint)                                  | Code linting engine           |
-| [prettier](https://github.com/prettier/prettier)                            | Code formatting engine        |
 | [typescript](https://github.com/microsoft/TypeScript)                       | TypeScript engine             |
 | [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | TypeScript support for ESLint |
 

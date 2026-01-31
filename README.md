@@ -1,17 +1,37 @@
 # Code Quality Configs
 
-A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.
+A set of ESLint and EditorConfig configurations for various programming languages and formats.
 
 ## Features
 
-This project provides pre-configured ESLint rules for multiple file types:
+This project provides pre-configured ESLint rules for the following file types:
 
-- **JavaScript** (`.js`, `.jsx`, `.mjs`)
-- **TypeScript** (`.ts`, `.tsx`, `.mts`)
 - **CSS** (`.css`)
 - **HTML** (`.html`, `.hbs`)
+- **JavaScript** (`.js`, `.jsx`, `.mjs`)
 - **JSON** (`.json`, `.json5`, `.jsonc`)
 - **Markdown** (`.md`)
+- **TypeScript** (`.ts`, `.tsx`, `.mts`)
+
+The EditorConfig contains settings for:
+
+- **CSS**
+- **HTML**
+- **HTTP**
+- **Java**
+- **JavaScript**
+- **JSON**
+- **Kotlin**
+- **Less**
+- **Markdown**
+- **Properties**
+- **Proto**
+- **Sass**
+- **SCSS**
+- **Shell**
+- **TypeScript**
+- **XML**
+- **YAML**
 
 ## Requirements
 

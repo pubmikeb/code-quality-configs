@@ -78,7 +78,7 @@ code-quality-configs/
 ## Dependencies
 
 | Package                                                                     | Description                   |
-| --------------------------------------------------------------------------- | ----------------------------- |
+|-----------------------------------------------------------------------------|-------------------------------|
 | [@eslint/css](https://github.com/eslint/css)                                | CSS linting                   |
 | [@eslint/json](https://github.com/eslint/json)                              | JSON/JSON5/JSONC linting      |
 | [@eslint/markdown](https://github.com/eslint/markdown)                      | Markdown linting              |

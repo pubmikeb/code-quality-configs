@@ -33,6 +33,8 @@ The EditorConfig contains settings for:
 - **XML**
 - **YAML**
 
+The EditorConfig settings prefixed with `ij_*` dedicated to the JetBrains IDEs family only.
+
 ## Requirements
 
 - Node.js >= 25.5.0
@@ -98,7 +100,7 @@ code-quality-configs/
 ## Dependencies
 
 | Package                                                                     | Description                   |
-|-----------------------------------------------------------------------------|-------------------------------|
+| --------------------------------------------------------------------------- | ----------------------------- |
 | [@eslint/css](https://github.com/eslint/css)                                | CSS linting                   |
 | [@eslint/json](https://github.com/eslint/json)                              | JSON/JSON5/JSONC linting      |
 | [@eslint/markdown](https://github.com/eslint/markdown)                      | Markdown linting              |

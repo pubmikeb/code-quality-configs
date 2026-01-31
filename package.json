@@ -6,7 +6,7 @@
 	"bugs": {
 		"url": "https://github.com/pubmikeb/code-quality-configs/issues"
 	},
-	"description": "A set of ESLint configurations for various programming languages and formats.",
+	"description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
 	"devDependencies": {
 		"@eslint/css": "^0.14.1",
 		"@eslint/json": "^1.0.0",
@@ -14,6 +14,7 @@
 		"@html-eslint/eslint-plugin": "^0.54.0",
 		"@html-eslint/parser": "^0.54.0",
 		"eslint": "^9.39.2",
+		"prettier": "^3.8.1",
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.54.0"
 	},
@@ -23,16 +24,12 @@
 	},
 	"homepage": "https://github.com/pubmikeb/code-quality-configs#readme",
 	"keywords": [
-		"code-quality",
-		"configuration",
-		"css",
+		"code quality",
+		"editorconfig",
 		"eslint",
-		"html",
-		"javascript",
-		"json",
+		"formatter",
 		"linter",
-		"markdown",
-		"typescript"
+		"prettier"
 	],
 	"license": "MIT",
 	"name": "code-quality-configs",

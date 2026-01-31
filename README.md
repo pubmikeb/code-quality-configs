@@ -1,6 +1,6 @@
 # Code Quality Configs
 
-A set of ESLint configurations for various programming languages and formats.
+A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.
 
 ## Features
 
@@ -78,13 +78,14 @@ code-quality-configs/
 ## Dependencies
 
 | Package                                                                     | Description                   |
-|-----------------------------------------------------------------------------|-------------------------------|
+| --------------------------------------------------------------------------- | ----------------------------- |
 | [@eslint/css](https://github.com/eslint/css)                                | CSS linting                   |
 | [@eslint/json](https://github.com/eslint/json)                              | JSON/JSON5/JSONC linting      |
 | [@eslint/markdown](https://github.com/eslint/markdown)                      | Markdown linting              |
 | [@html-eslint/eslint-plugin](https://github.com/yeonjuan/html-eslint)       | HTML linting                  |
 | [@html-eslint/parser](https://github.com/yeonjuan/html-eslint)              | HTML parser                   |
-| [eslint](https://github.com/eslint/eslint)                                  | Core linting engine           |
+| [eslint](https://github.com/eslint/eslint)                                  | Code linting engine           |
+| [prettier](https://github.com/prettier/prettier)                            | Code formatting engine        |
 | [typescript](https://github.com/microsoft/TypeScript)                       | TypeScript engine             |
 | [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | TypeScript support for ESLint |
 

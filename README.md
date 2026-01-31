@@ -33,7 +33,7 @@ The EditorConfig contains settings for:
 - **XML**
 - **YAML**
 
-The EditorConfig settings prefixed with `ij_*` dedicated to the JetBrains IDEs family only.
+The EditorConfig settings prefixed with `ij_*` dedicated mainly to the JetBrains IDEs family.
 
 ## Requirements
 

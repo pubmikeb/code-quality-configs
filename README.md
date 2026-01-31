@@ -112,7 +112,7 @@ code-quality-configs/
 
 To use these configurations in another project:
 
-1. Copy the **linters** folder to the root directory of the target project.
+1. Copy the **linters** folder and `.editorconfig` to the root directory of the target project.
 2. Add and install the required dependencies.
 
 ## License

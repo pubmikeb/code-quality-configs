@@ -16,7 +16,7 @@
 		"eslint": "^10.0.0",
 		"prettier": "^3.8.1",
 		"typescript": "^5.9.3",
-		"typescript-eslint": "^8.55.1-alpha.4"
+		"typescript-eslint": "^8.56.0"
 	},
 	"engines": {
 		"node": ">=25.6.0",

@@ -1,58 +1,58 @@
 {
-	"author": {
-		"name": "Mike B.",
-		"url": "https://github.com/pubmikeb"
-	},
-	"bugs": {
-		"url": "https://github.com/pubmikeb/code-quality-configs/issues"
-	},
-	"description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
-	"devDependencies": {
-		"@eslint/css": "^0.14.1",
-		"@eslint/json": "^1.0.1",
-		"@eslint/markdown": "^7.5.1",
-		"@html-eslint/eslint-plugin": "^0.56.0",
-		"@html-eslint/parser": "^0.56.0",
-		"eslint": "^10.0.1",
-		"prettier": "^3.8.1",
-		"typescript": "^5.9.3",
-		"typescript-eslint": "^8.56.0"
-	},
-	"engines": {
-		"node": ">=25.6.1",
-		"npm": ">=11.10.1"
-	},
-	"homepage": "https://github.com/pubmikeb/code-quality-configs#readme",
-	"keywords": [
-		"code quality",
-		"css",
-		"editorconfig",
-		"eslint",
-		"formatter",
-		"html",
-		"javascript",
-		"json",
-		"linter",
-		"markdown",
-		"prettier",
-		"typescript"
-	],
-	"license": "MIT",
-	"name": "code-quality-configs",
-	"packageManager": "npm@11.9.0",
-	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/pubmikeb/code-quality-configs.git"
-	},
-	"scripts": {
-		"format:check": "prettier --check . --config ./prettier.config.mjs",
-		"format:fix": "prettier --write . --config ./prettier.config.mjs",
-		"lint:check": "eslint --config ./linters/eslint.config.mjs",
-		"lint:check:cache": "eslint --cache --config ./linters/eslint.config.mjs",
-		"lint:fix": "eslint --fix --config ./linters/eslint.config.mjs",
-		"typecheck": "tsc --noEmit"
-	},
-	"type": "module",
-	"version": "1.0.0"
+    "author": {
+        "name": "Mike B.",
+        "url": "https://github.com/pubmikeb"
+    },
+    "bugs": {
+        "url": "https://github.com/pubmikeb/code-quality-configs/issues"
+    },
+    "description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
+    "devDependencies": {
+        "@eslint/css": "^0.14.1",
+        "@eslint/json": "^1.0.1",
+        "@eslint/markdown": "^7.5.1",
+        "@html-eslint/eslint-plugin": "^0.57.0",
+        "@html-eslint/parser": "^0.57.0",
+        "eslint": "^10.0.2",
+        "prettier": "^3.8.1",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.56.1"
+    },
+    "engines": {
+        "node": ">=25.6.1",
+        "npm": ">=11.10.1"
+    },
+    "homepage": "https://github.com/pubmikeb/code-quality-configs#readme",
+    "keywords": [
+        "code quality",
+        "css",
+        "editorconfig",
+        "eslint",
+        "formatter",
+        "html",
+        "javascript",
+        "json",
+        "linter",
+        "markdown",
+        "prettier",
+        "typescript"
+    ],
+    "license": "MIT",
+    "name": "code-quality-configs",
+    "packageManager": "npm@11.9.0",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pubmikeb/code-quality-configs.git"
+    },
+    "scripts": {
+        "format:check": "prettier --check . --config ./prettier.config.mjs",
+        "format:fix": "prettier --write . --config ./prettier.config.mjs",
+        "lint:check": "eslint --config ./linters/eslint.config.mjs",
+        "lint:check:cache": "eslint --cache --config ./linters/eslint.config.mjs",
+        "lint:fix": "eslint --fix --config ./linters/eslint.config.mjs",
+        "typecheck": "tsc --noEmit"
+    },
+    "type": "module",
+    "version": "1.0.0"
 }

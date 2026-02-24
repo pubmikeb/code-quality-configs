@@ -80,4 +80,4 @@ export default defineConfig([
                      },
                      {ts: ts.plugin},
                      rulesTS),
-                            ]);
+               ]);

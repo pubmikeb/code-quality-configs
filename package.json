@@ -11,15 +11,14 @@
         "@eslint/css": "^0.14.1",
         "@eslint/json": "^1.0.1",
         "@eslint/markdown": "^7.5.1",
-        "@html-eslint/eslint-plugin": "^0.57.0",
-        "@html-eslint/parser": "^0.57.0",
+        "@html-eslint/eslint-plugin": "^0.57.1",
+        "@html-eslint/parser": "^0.57.1",
         "eslint": "^10.0.2",
-        "prettier": "^3.8.1",
         "typescript": "^5.9.3",
         "typescript-eslint": "^8.56.1"
     },
     "engines": {
-        "node": ">=25.6.1",
+        "node": ">=25.7.0",
         "npm": ">=11.10.1"
     },
     "homepage": "https://github.com/pubmikeb/code-quality-configs#readme",

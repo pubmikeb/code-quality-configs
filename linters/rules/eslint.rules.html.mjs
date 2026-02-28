@@ -3,10 +3,8 @@ export const rules = {
     "html/css-no-empty-blocks": "error",
     "html/element-newline": "error",
     "html/head-order": "error",
-    "html/id-naming-convention": [
-            "error",
-            "camelCase"
-    ],
+    "html/id-naming-convention": ["error",
+                                  "camelCase"],
     "html/lowercase": "error",
     "html/max-element-depth": "error",
     "html/no-abstract-roles": "error",

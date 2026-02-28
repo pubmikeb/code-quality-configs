@@ -1,13 +1,11 @@
 /* eslint-disable no-magic-numbers */
 export const rules = {
-    "accessor-pairs": [
-        "error",
+    "accessor-pairs": ["error",
         {
             "enforceForTSTypes": true,
             "getWithoutSet": true,
             "setWithoutGet": true,
-        },
-    ],
+        }],
     "array-callback-return": "error",
     "arrow-body-style": "error",
     "block-scoped-var": "error",
@@ -28,51 +26,37 @@ export const rules = {
     "func-names": "error",
     "func-style": "error",
     "getter-return": "error",
-    "grouped-accessor-pairs": [
-        "error",
-        "anyOrder",
+    "grouped-accessor-pairs": ["error",
+                               "anyOrder",
         {
             "enforceForTSTypes": true,
-        },
-    ],
+        }],
     "guard-for-in": "error",
     "id-denylist": "error",
-    "id-length": [
-        "error",
+    "id-length": ["error",
         {
-            "exceptions": [
-                    "i",
-                    "j"
-            ],
-        },
-    ],
+            "exceptions": ["i",
+                           "j"],
+        }],
     "id-match": "error",
     "init-declarations": "error",
-    "logical-assignment-operators": [
-        "error",
-        "always",
+    "logical-assignment-operators": ["error",
+                                     "always",
         {
             "enforceForIfStatements": true,
-        },
-    ],
+        }],
     "max-classes-per-file": "error",
     "max-depth": "error",
-    "max-lines-per-function": [
-        "error",
+    "max-lines-per-function": ["error",
         {
             "max": 100,
             "skipBlankLines": true,
-        },
-    ],
+        }],
     "max-nested-callbacks": "error",
-    "max-params": [
-            "error",
-            5
-    ],
-    "max-statements": [
-            "error",
-            25
-    ],
+    "max-params": ["error",
+                   5],
+    "max-statements": ["error",
+                       25],
     "new-cap": "error",
     "no-alert": "error",
     "no-array-constructor": "error",
@@ -132,14 +116,12 @@ export const rules = {
     "no-lonely-if": "error",
     "no-loop-func": "error",
     "no-loss-of-precision": "error",
-    "no-magic-numbers": [
-        "error",
+    "no-magic-numbers": ["error",
         {
             "detectObjects": true,
             "enforceConst": true,
             "ignoreClassFieldInitialValues": true,
-        },
-    ],
+        }],
     "no-misleading-character-class": "error",
     "no-multi-assign": "error",
     "no-multi-str": "error",
@@ -162,13 +144,11 @@ export const rules = {
     "no-regex-spaces": "error",
     "no-restricted-exports": "error",
     "no-restricted-globals": "error",
-    "no-restricted-imports": [
-        "error",
+    "no-restricted-imports": ["error",
         {
             "allowTypeImports": true,
             "name": "node:assert",
-        },
-    ],
+        }],
     "no-restricted-properties": "error",
     "no-restricted-syntax": "error",
     "no-return-assign": "error",
@@ -178,12 +158,10 @@ export const rules = {
     "no-sequences": "error",
     "no-setter-return": "error",
     "no-shadow": "error",
-    "no-shadow-restricted-names": [
-        "error",
+    "no-shadow-restricted-names": ["error",
         {
             "reportGlobalThis": true,
-        },
-    ],
+        }],
     "no-sparse-arrays": "error",
     "no-template-curly-in-string": "error",
     "no-this-before-super": "error",
@@ -204,13 +182,11 @@ export const rules = {
     "no-unused-expressions": "error",
     "no-unused-labels": "error",
     "no-unused-private-class-members": "error",
-    "no-unused-vars": [
-        "error",
+    "no-unused-vars": ["error",
         {
             "args": "all",
             "reportUsedIgnorePattern": true,
-        },
-    ],
+        }],
     "no-use-before-define": "error",
     "no-useless-assignment": "error",
     "no-useless-backreference": "error",
@@ -219,14 +195,10 @@ export const rules = {
     "no-useless-computed-key": "error",
     "no-useless-concat": "error",
     "no-useless-constructor": "error",
-    "no-useless-escape": [
-        "error",
+    "no-useless-escape": ["error",
         {
-            "allowRegexCharacters": [
-                    "-"
-            ],
-        },
-    ],
+            "allowRegexCharacters": ["-"],
+        }],
     "no-useless-rename": "error",
     "no-useless-return": "error",
     "no-var": "error",
@@ -234,10 +206,8 @@ export const rules = {
     "no-warning-comments": "error",
     "no-with": "error",
     "object-shorthand": "error",
-    "one-var": [
-            "error",
-            "never"
-    ],
+    "one-var": ["error",
+                "never"],
     "operator-assignment": "error",
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
@@ -267,8 +237,6 @@ export const rules = {
     "use-isnan": "error",
     "valid-typeof": "error",
     "vars-on-top": "error",
-    "yoda": [
-            "error",
-            "always"
-    ],
+    "yoda": ["error",
+             "always"],
 };

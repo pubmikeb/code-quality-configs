@@ -39,7 +39,7 @@
     ],
     "license": "MIT",
     "name": "code-quality-configs",
-    "packageManager": "npm@11.9.0",
+    "packageManager": "npm@11.11.0",
     "private": true,
     "repository": {
         "type": "git",

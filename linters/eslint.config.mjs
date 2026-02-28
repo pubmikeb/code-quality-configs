@@ -24,9 +24,12 @@ const linterConfig = (files,
                       languageOptions,
                       plugins,
                       rules) => ({
-    files, ...(language && {language}), ...(languageOptions && {languageOptions}),
+    files,
+    ...(language && {language}),
+    ...(languageOptions && {languageOptions}),
     linterOptions,
-    name: `Linter: ${language || "js/ts"}`, ...(plugins && {plugins}),
+    name: `Linter: ${language || "js/ts"}`,
+    ...(plugins && {plugins}),
     rules,
 });
 

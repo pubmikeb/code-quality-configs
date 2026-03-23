@@ -34,7 +34,7 @@ The EditorConfig settings prefixed with `ij_*` dedicated mainly to the JetBrains
 
 ## Installation
 
-```bash
+```shell
 npm install
 ```
 
@@ -44,7 +44,7 @@ npm install
 
 Run Prettier on project files in preview mode:
 
-```bash
+```shell
 npm run format:check
 ```
 
@@ -52,7 +52,7 @@ npm run format:check
 
 Automatically fix fixable formatting issues:
 
-```bash
+```shell
 npm run format:fix
 ```
 
@@ -60,7 +60,7 @@ npm run format:fix
 
 Run ESLint on project files in preview mode:
 
-```bash
+```shell
 npm run lint:check
 ```
 
@@ -68,7 +68,7 @@ npm run lint:check
 
 For faster later runs, use caching:
 
-```bash
+```shell
 npm run lint:check:cache
 ```
 
@@ -76,7 +76,7 @@ npm run lint:check:cache
 
 Automatically fix fixable linting issues:
 
-```bash
+```shell
 npm run lint:fix
 ```
 
@@ -84,13 +84,13 @@ npm run lint:fix
 
 Run TypeScript type checking without emitting files:
 
-```bash
+```shell
 npm run typecheck
 ```
 
 ## Project Structure
 
-```bash
+```shell
 code-quality-configs/
 ├── linters/
 │   ├── eslint.config.mjs          # ESLint configuration

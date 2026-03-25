@@ -29,7 +29,7 @@ The EditorConfig settings prefixed with `ij_*` dedicated mainly to the JetBrains
 
 ## Requirements
 
-- Node.js >= 25.8.1
+- Node.js >= 25.8.2
 - npm >= 11.12.0
 
 ## Installation

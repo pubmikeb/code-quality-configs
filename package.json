@@ -8,14 +8,14 @@
     },
     "description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
     "devDependencies": {
-        "@eslint/css": "^1.0.0",
+        "@eslint/css": "^1.1.0",
         "@eslint/json": "^1.2.0",
-        "@eslint/markdown": "^8.0.0",
+        "@eslint/markdown": "^8.0.1",
         "@html-eslint/eslint-plugin": "^0.58.1",
         "@html-eslint/parser": "^0.58.1",
         "eslint": "^10.1.0",
         "prettier": "^3.8.1",
-        "typescript-eslint": "^8.57.2"
+        "typescript-eslint": "^8.58.0"
     },
     "engines": {
         "node": ">=25.8.2",

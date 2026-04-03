@@ -13,7 +13,7 @@
         "@eslint/markdown": "^8.0.1",
         "@html-eslint/eslint-plugin": "^0.58.1",
         "@html-eslint/parser": "^0.58.1",
-        "eslint": "^10.1.0",
+        "eslint": "^10.2.0",
         "prettier": "^3.8.1",
         "typescript-eslint": "^8.58.0"
     },

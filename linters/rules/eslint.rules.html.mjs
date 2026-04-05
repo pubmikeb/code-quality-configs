@@ -1,4 +1,5 @@
 export const rules = {
+    "html/attrs-newline": "error",
     "html/class-spacing": "error",
     "html/css-no-empty-blocks": "error",
     "html/element-newline": "error",
@@ -45,6 +46,7 @@ export const rules = {
     "html/require-attrs": "error",
     "html/require-button-type": "error",
     "html/require-closing-tags": "error",
+    "html/require-content": "error",
     "html/require-doctype": "error",
     "html/require-explicit-size": "error",
     "html/require-form-method": "error",
@@ -59,5 +61,6 @@ export const rules = {
     "html/require-open-graph-protocol": "error",
     "html/require-title": "error",
     "html/sort-attrs": "error",
+    "html/svg-require-viewbox": "error",
     "html/use-baseline": "error",
 };

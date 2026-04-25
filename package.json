@@ -19,7 +19,7 @@
     },
     "engines": {
         "node": ">=25.9.0",
-        "npm": ">=11.12.1"
+        "npm": ">=11.13.0"
     },
     "homepage": "https://github.com/pubmikeb/code-quality-configs#readme",
     "keywords": [
@@ -38,7 +38,7 @@
     ],
     "license": "MIT",
     "name": "code-quality-configs",
-    "packageManager": "npm@11.12.1",
+    "packageManager": "npm@11.13.0",
     "private": true,
     "repository": {
         "type": "git",

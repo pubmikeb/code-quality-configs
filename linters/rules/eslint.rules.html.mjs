@@ -1,5 +1,4 @@
 export const rules = {
-    "html/attrs-newline": "error",
     "html/class-spacing": "error",
     "html/css-no-empty-blocks": "error",
     "html/element-newline": "error",

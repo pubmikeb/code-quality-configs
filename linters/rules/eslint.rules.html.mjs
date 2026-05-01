@@ -16,7 +16,7 @@ export const rules = {
     "html/no-duplicate-id": "error",
     "html/no-duplicate-in-head": "error",
     "html/no-empty-headings": "error",
-    "html/no-extra-spacing-attrs": "error",
+    "html/no-extra-spacing-tags": "error",
     "html/no-extra-spacing-text": "error",
     "html/no-heading-inside-button": "error",
     "html/no-ineffective-attrs": "error",

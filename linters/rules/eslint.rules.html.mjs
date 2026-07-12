@@ -20,7 +20,10 @@ export const rules = {
     "html/no-extra-spacing-text": "error",
     "html/no-heading-inside-button": "error",
     "html/no-ineffective-attrs": "error",
-    "html/no-inline-styles": "error",
+    "html/no-inline-styles": ["error",
+        {
+            "allowExpressions": true,
+        }],
     "html/no-invalid-attr-value": "error",
     "html/no-invalid-entity": "error",
     "html/no-invalid-role": "error",

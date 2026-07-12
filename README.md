@@ -29,8 +29,8 @@ The EditorConfig settings prefixed with `ij_*` dedicated mainly to the JetBrains
 
 ## Requirements
 
-- Node.js >= 26.2.0
-- npm >= 11.16.0
+- Node.js >= 26.5.0
+- npm >= 12.0.1
 
 ## Installation
 
@@ -114,7 +114,6 @@ code-quality-configs/
 | [@eslint/json](https://github.com/eslint/json)                              | JSON linting                  |
 | [@eslint/markdown](https://github.com/eslint/markdown)                      | Markdown linting              |
 | [@html-eslint/eslint-plugin](https://github.com/yeonjuan/html-eslint)       | HTML linting                  |
-| [@html-eslint/parser](https://github.com/yeonjuan/html-eslint)              | HTML parser                   |
 | [eslint](https://github.com/eslint/eslint)                                  | Code linting engine           |
 | [prettier](https://github.com/prettier/prettier)                            | Code formatting engine        |
 | [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | TypeScript support for ESLint |

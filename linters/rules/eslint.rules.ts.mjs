@@ -83,6 +83,7 @@ export const rules = {
     "ts/no-unused-vars": "error",
     "ts/no-use-before-define": "error",
     "ts/no-useless-constructor": "error",
+    "ts/no-useless-default-assignment": "error",
     "ts/no-useless-empty-export": "error",
     "ts/no-wrapper-object-types": "error",
     "ts/non-nullable-type-assertion-style": "error",

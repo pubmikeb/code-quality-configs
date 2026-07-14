@@ -42,7 +42,6 @@ export const rules = {
     "ts/no-import-type-side-effects": "error",
     "ts/no-inferrable-types": "error",
     "ts/no-invalid-void-type": "error",
-    "ts/no-loop-func": "error",
     "ts/no-magic-numbers": "error",
     "ts/no-meaningless-void-operator": "error",
     "ts/no-misused-new": "error",

@@ -54,7 +54,6 @@ export const rules = {
     "ts/no-non-null-assertion": "error",
     "ts/no-redundant-type-constituents": "error",
     "ts/no-require-imports": "error",
-    "ts/no-restricted-imports": "error",
     "ts/no-restricted-types": "error",
     "ts/no-shadow": "error",
     "ts/no-this-alias": "error",

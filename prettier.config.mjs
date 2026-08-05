@@ -1,3 +1,4 @@
+/* eslint-disable no-magic-numbers */
 const config = {
     bracketSameLine: true,
     bracketSpacing: false,

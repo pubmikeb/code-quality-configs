@@ -17,7 +17,7 @@
     },
     "description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
     "engines": {
-        "node": ">=26.6.0",
+        "node": ">=26.7.0",
         "npm": ">=12.0.2"
     },
     "homepage": "https://github.com/pubmikeb/code-quality-configs#readme",

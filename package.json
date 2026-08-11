@@ -13,7 +13,7 @@
         "@html-eslint/eslint-plugin": "^0.64.0",
         "eslint": "^10.8.1",
         "prettier": "^3.9.6",
-        "typescript-eslint": "^8.66.0"
+        "typescript-eslint": "^8.67.0"
     },
     "description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
     "engines": {

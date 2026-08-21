@@ -11,7 +11,7 @@
         "@eslint/json": "^2.0.1",
         "@eslint/markdown": "^8.0.3",
         "@html-eslint/eslint-plugin": "^0.65.0",
-        "eslint": "^10.8.1",
+        "eslint": "^10.9.0",
         "prettier": "^3.9.6",
         "typescript-eslint": "^8.67.0"
     },

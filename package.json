@@ -11,9 +11,9 @@
         "@eslint/json": "^2.0.1",
         "@eslint/markdown": "^8.0.3",
         "@html-eslint/eslint-plugin": "^0.65.0",
-        "eslint": "^10.9.0",
+        "eslint": "^10.9.1",
         "prettier": "^3.9.6",
-        "typescript-eslint": "^8.67.0"
+        "typescript-eslint": "^8.68.0"
     },
     "description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
     "engines": {

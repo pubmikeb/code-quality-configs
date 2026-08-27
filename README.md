@@ -102,6 +102,7 @@ code-quality-configs/
 │       ├── eslint.rules.md.mjs    # Markdown-specific rules
 │       └── eslint.rules.ts.mjs    # TypeScript-specific rules
 ├── .editorconfig                  # EditorConfig configuration
+├── .prettierignore                # Prettier ignore files
 ├── package.json                   # Package manifest
 └── prettier.config.mjs            # Prettier configuration
 ```
@@ -122,7 +123,7 @@ code-quality-configs/
 
 To use these configurations in another project:
 
-1. Copy the `linters` folder, `.editorconfig`, and `prettier.config.mjs` to the root directory of the target project.
+1. Copy the `linters` folder, `.editorconfig`, `prettier.config.mjs`, and `.prettierignore` to the root directory of the target project.
 2. Add and install the required dependencies.
 3. Configure the IDE if required.
 

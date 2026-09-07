@@ -38,6 +38,7 @@ export const rules = {
     "ts/no-extraneous-class": "error",
     "ts/no-floating-promises": "error",
     "ts/no-for-in-array": "error",
+    "ts/no-generated-empty-object-type": "error",
     "ts/no-implied-eval": "error",
     "ts/no-import-type-side-effects": "error",
     "ts/no-inferrable-types": "error",

@@ -85,9 +85,7 @@ export default defineConfig([globalIgnores(["build/**",
                                           {
                                               parser: ts.parser,
                                               parserOptions: {
-                                                  ecmaFeatures: {
-                                                      jsx: true,
-                                                  },
+                                                  ecmaFeatures: {jsx: true},
                                                   projectService: true,
                                                   sourceType: "module",
                                               },

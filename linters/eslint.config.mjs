@@ -3,6 +3,7 @@ import {
     globalIgnores,
 } from "eslint/config";
 import css from "@eslint/css";
+import globals from "globals";
 import html from "@html-eslint/eslint-plugin";
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
@@ -49,7 +50,14 @@ export default defineConfig([globalIgnores(["build/**",
                                           rulesHTML),
                              linterConfig(["**/*.{js,jsx,mjs}"],
                                           null,
-                                          null,
+                                          {
+                                              globals: {
+                                                  ...globals.browser,
+                                                  ...globals.bunBuiltin,
+                                                  ...globals.denoBuiltin,
+                                                  ...globals.nodeBuiltin,
+                                              },
+                                          },
                                           null,
                                           rulesJS),
                              linterConfig(["**/*.json"],

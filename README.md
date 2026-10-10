@@ -116,6 +116,7 @@ code-quality-configs/
 | [@eslint/markdown](https://github.com/eslint/markdown)                      | Markdown linting              |
 | [@html-eslint/eslint-plugin](https://github.com/yeonjuan/html-eslint)       | HTML linting                  |
 | [eslint](https://github.com/eslint/eslint)                                  | Code linting engine           |
+| [globals](https://github.com/sindresorhus/globals)                          | JavaScript global identifiers |
 | [prettier](https://github.com/prettier/prettier)                            | Code formatting engine        |
 | [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) | TypeScript support for ESLint |
 

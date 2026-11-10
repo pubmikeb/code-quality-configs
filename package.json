@@ -10,6 +10,7 @@
         "@eslint/css": "^2.0.1",
         "@eslint/json": "^2.1.1",
         "@eslint/markdown": "^8.0.3",
+        "@eslint/shell": "^0.1.2",
         "@html-eslint/eslint-plugin": "^0.68.0",
         "eslint": "^10.14.0",
         "globals": "^17.14.0",
@@ -33,6 +34,7 @@
         "json",
         "linter",
         "markdown",
+        "shell",
         "prettier",
         "typescript"
     ],

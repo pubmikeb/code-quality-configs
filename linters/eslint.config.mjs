@@ -7,11 +7,13 @@ import globals from "globals";
 import html from "@html-eslint/eslint-plugin";
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
+import shell from "@eslint/shell";
 import {rules as rulesCSS} from "./rules/eslint.rules.css.mjs";
 import {rules as rulesHTML} from "./rules/eslint.rules.html.mjs";
 import {rules as rulesJS} from "./rules/eslint.rules.js.mjs";
 import {rules as rulesJSON} from "./rules/eslint.rules.json.mjs";
 import {rules as rulesMD} from "./rules/eslint.rules.md.mjs";
+import {rules as rulesSH} from "./rules/eslint.rules.sh.mjs";
 import {rules as rulesTS} from "./rules/eslint.rules.ts.mjs";
 import ts from "typescript-eslint";
 
@@ -80,7 +82,22 @@ export default defineConfig([globalIgnores(["build/**",
                                           null,
                                           {markdown},
                                           rulesMD),
-                             linterConfig(["**/*.{ts,tsx,mts}"],
+                             linterConfig(["**/*.{bash}"],
+                                          "shell/bash",
+                                          null,
+                                          {shell},
+                                          rulesSH),
+                             linterConfig(["**/*.{ksh,mksh}"],
+                                          "shell/mksh",
+                                          null,
+                                          {shell},
+                                          rulesSH),
+                             linterConfig(["**/*.{sh}"],
+                                          "shell/posix",
+                                          null,
+                                          {shell},
+                                          rulesSH),
+                             linterConfig(["**/*.{mts,ts,tsx}"],
                                           null,
                                           {
                                               parser: ts.parser,

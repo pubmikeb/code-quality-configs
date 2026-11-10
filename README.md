@@ -11,6 +11,7 @@ This project provides pre-configured ESLint rules for the following file types:
 - JavaScript / TypeScript
 - JSON / JSON5 / JSONC
 - Markdown
+- Shell
 
 The EditorConfig contains settings for:
 
@@ -20,6 +21,7 @@ The EditorConfig contains settings for:
 - JavaScript / TypeScript
 - JSON / JSON5 / JSONC
 - Markdown
+- Shell
 - XML / XSD
 - YAML
 
@@ -114,6 +116,7 @@ code-quality-configs/
 | [@eslint/css](https://github.com/eslint/css)                                | CSS linting                   |
 | [@eslint/json](https://github.com/eslint/json)                              | JSON linting                  |
 | [@eslint/markdown](https://github.com/eslint/markdown)                      | Markdown linting              |
+| [@eslint/shell](https://github.com/eslint/shell)                      | Shell linting              |
 | [@html-eslint/eslint-plugin](https://github.com/yeonjuan/html-eslint)       | HTML linting                  |
 | [eslint](https://github.com/eslint/eslint)                                  | Code linting engine           |
 | [globals](https://github.com/sindresorhus/globals)                          | JavaScript global identifiers |

@@ -54,9 +54,6 @@ ij_css_space_before_opening_brace = true
 ij_css_use_double_quotes = true
 ij_css_value_alignment = do_not_align
 
-ij_less_line_comment_add_space = false
-ij_less_line_comment_at_first_column = true
-
 [*.{hbs,htm,html}]
 ij_html_add_new_line_before_tags = body, div, p, form, h1, h2, h3
 ij_html_align_attributes = true
@@ -611,7 +608,6 @@ ij_markdown_force_one_space_after_list_bullet = true
 ij_markdown_force_one_space_between_words = true
 ij_markdown_format_tables = true
 ij_markdown_insert_quote_arrows_on_wrap = true
-ij_markdown_keep_indents_on_empty_lines = false
 ij_markdown_keep_line_breaks_inside_text_blocks = true
 ij_markdown_max_lines_around_block_elements = 1
 ij_markdown_max_lines_around_header = 1
@@ -622,32 +618,11 @@ ij_markdown_min_lines_between_paragraphs = 1
 ij_markdown_wrap_text_if_long = true
 ij_markdown_wrap_text_inside_blockquotes = true
 
-[*.{pb,textproto,txtpb}]
-ij_prototext_keep_blank_lines_in_code = 1
-ij_prototext_keep_indents_on_empty_lines = false
-ij_prototext_keep_line_breaks = false
-ij_prototext_space_after_colon = true
-ij_prototext_space_after_comma = true
-ij_prototext_space_before_colon = true
-ij_prototext_space_before_comma = false
-ij_prototext_spaces_within_braces = false
-ij_prototext_spaces_within_brackets = false
-
 [*.properties]
 ij_properties_align_group_field_declarations = false
 ij_properties_keep_blank_lines = false
 ij_properties_key_value_delimiter = equals
 ij_properties_spaces_around_key_value_delimiter = true
-
-[*.proto]
-ij_protobuf_keep_blank_lines_in_code = 1
-ij_protobuf_keep_indents_on_empty_lines = false
-ij_protobuf_keep_line_breaks = false
-ij_protobuf_space_after_comma = true
-ij_protobuf_space_before_comma = false
-ij_protobuf_spaces_around_assignment_operators = true
-ij_protobuf_spaces_within_braces = false
-ij_protobuf_spaces_within_brackets = false
 
 [*.{xml,xsd}]
 ij_xml_align_attributes = true

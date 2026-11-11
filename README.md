@@ -6,22 +6,22 @@ A set of ESLint, EditorConfig, and Prettier configurations for various programmi
 
 This project provides pre-configured ESLint rules for the following file types:
 
+- Bash / MirBSD / POSIX Shell
 - CSS
 - HTML / HBS
 - JavaScript / TypeScript
 - JSON / JSON5 / JSONC
 - Markdown
-- Shell
 
 The EditorConfig contains settings for:
 
+- Bash / MirBSD / POSIX Shell / Z Shell
 - CSS
 - HTML / HBS
 - Java / Kotlin
 - JavaScript / TypeScript
 - JSON / JSON5 / JSONC
 - Markdown
-- Shell
 - XML / XSD
 - YAML
 

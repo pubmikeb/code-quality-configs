@@ -71,6 +71,7 @@ export const rules = {
     "ts/no-unsafe-argument": "error",
     "ts/no-unsafe-assignment": "error",
     "ts/no-unsafe-call": "error",
+    "ts/no-unsafe-class-instance-assignment": "error",
     "ts/no-unsafe-declaration-merging": "error",
     "ts/no-unsafe-enum-assignment": "error",
     "ts/no-unsafe-enum-comparison": "error",

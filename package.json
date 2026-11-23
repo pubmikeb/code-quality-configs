@@ -15,7 +15,7 @@
         "eslint": "^10.15.0",
         "globals": "^17.14.0",
         "prettier": "^3.10.1",
-        "typescript-eslint": "^8.73.0"
+        "typescript-eslint": "^8.74.0"
     },
     "description": "A set of ESLint, EditorConfig, and Prettier configurations for various programming languages and formats.",
     "engines": {

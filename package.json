@@ -12,7 +12,7 @@
         "@eslint/markdown": "^9.0.0",
         "@eslint/shell": "^0.1.2",
         "@html-eslint/eslint-plugin": "^0.69.0",
-        "eslint": "^10.15.0",
+        "eslint": "^10.16.0",
         "globals": "^17.14.0",
         "prettier": "^3.10.1",
         "typescript-eslint": "^8.74.0"
